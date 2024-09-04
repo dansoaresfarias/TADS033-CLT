@@ -1,32 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html {
+            font-family: Verdana, Geneva, Tahoma, sans-serif
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 80%;
+            margin-left: 10%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+        address {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-left: 3%;
+        }
+
+        hr {
+            border: solid #dddddd 1px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: small;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
     <title>Danilo Farias</title>
 </head>
+
 <body>
     <!-- Exercício de criação do currículo  -->
-    <div style="text-align: center;">
+    <div style="text-align: center;" id="apresentacao">
         <h1>Danilo Farias Soares da Silva</h1>
-        <img src="imgs/Danilo_Farias_0830.jpg" alt="Foto de Danilo Farias" height="15%" width="15%" style="border-radius: 50%;">
+        <img src="imgs/Danilo_Farias_0830.jpg" alt="Foto de Danilo Farias" height="15%" width="15%"
+            style="border-radius: 50%;">
         <h4>(Análista de dados)</h4>
         <hr>
     </div>
-    <div>
+    <div id="sobre">
         <h3>Sobre:</h3>
-        <p>Graduado em <b>Tecnologia em Análise e Desenvolvimento de Sistemas</b> pelo Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco (IFPE), <b>Mestre em Ciência da Computação</b> pelo Centro de Informática da Universidade Federal de Pernambuco (UFPE), <b>Especialista em Informática em Saúde</b> pela Universidade Federal de São Paulo (UNIFESP). Atualmente exerce o cargo de Técnico em Tecnologia da Informação no Hospital das Clínicas da UFPE, atuando como Analista de Sistemas do Núcleo de Telessaúde da UFPE, desenvolvendo atividades de engenharia de software, engenharia de requisitos e gestão de processo de negócio. Também atua como Professor Acadêmico nos cursos de Computação na instituição Faculdade SENAC de PE.</p> 
+        <p>Graduado em <b>Tecnologia em Análise e Desenvolvimento de Sistemas</b> pelo Instituto Federal de Educação,
+            Ciência e Tecnologia de Pernambuco (IFPE), <b>Mestre em Ciência da Computação</b> pelo Centro de Informática
+            da Universidade Federal de Pernambuco (UFPE), <b>Especialista em Informática em Saúde</b> pela Universidade
+            Federal de São Paulo (UNIFESP). Atualmente exerce o cargo de Técnico em Tecnologia da Informação no Hospital
+            das Clínicas da UFPE, atuando como Analista de Sistemas do Núcleo de Telessaúde da UFPE, desenvolvendo
+            atividades de engenharia de software, engenharia de requisitos e gestão de processo de negócio. Também atua
+            como Professor Acadêmico nos cursos de Computação na instituição Faculdade SENAC de PE.</p>
+        <hr>
+    </div>
+    <div id="formacao">
+        <h3>Formação Acadêmica:</h3>
+        <ul style="list-style-type: square;">
+            <li>Tecnólogo em Análise e Desenvolvimento de Sistemas (<a
+                    href="https://portal.ifpe.edu.br/recife/cursos/superiores/tecnologos/analise-e-desenvolvimento-de-sistemas/"
+                    target="_blank">IFPE</a>)</li>
+            <li>Especialista em Informática em Saúde (<a href="https://informaticaemsaude.com.br/is.uab/index.html"
+                    target="_blank">UNIFESP</a>)</li>
+            <li>Mestre em Ciência da Computação (<a
+                    href="https://portal.cin.ufpe.br/pos-graduacao/stricto-sensu/programa-academico/mestrado-academico/"
+                    target="_blank">UFPE</a>)</li>
+            <li><a href="docs/Currículo do Sistema de Currículos Lattes (Danilo Farias Soares da Silva).pdf"
+                    target="_blank">Saiba mais...</a></li>
+        </ul>
+        <hr>
+    </div>
+    <div id="experiencia">
+        <h3>Experiência Profissional:</h3>
+        <table>
+            <tr>
+                <th>Período</th>
+                <th>Instituição</th>
+                <th>Experiência</th>
+            </tr>
+            <tr>
+                <td>2008-2010</td>
+                <td>5IT</td>
+                <td>Desenvolvedor back-end JAVA.</td>
+            </tr>
+            <tr>
+                <td>2010-2024</td>
+                <td>UFPE</td>
+                <td>Analista de Sistemas no Núcleo de Telessaúde da UFPE no HC.</td>
+            </tr>
+            <tr>
+                <td>2024-Atualmente</td>
+                <td>UFPE</td>
+                <td>Analista de Sistemas na SPREAD.</td>
+            </tr>
+        </table>
         <hr>
     </div>
     <div>
-        <h3>Formação Acadêmica:</h3>
-        <ul style="list-style-type: square;">
-            <li>Tecnólogo em Análise e Desenvolvimento de Sistemas (<a href="https://portal.ifpe.edu.br/recife/cursos/superiores/tecnologos/analise-e-desenvolvimento-de-sistemas/" target="_blank">IFPE</a>)</li>
-            <li>Especialista em Informática em Saúde (<a href="https://informaticaemsaude.com.br/is.uab/index.html" target="_blank">UNIFESP</a>)</li>
-            <li>Mestre em Ciência da Computação (<a href="https://portal.cin.ufpe.br/pos-graduacao/stricto-sensu/programa-academico/mestrado-academico/" target="_blank">UFPE</a>)</li>
-            <li><a href="docs/Currículo do Sistema de Currículos Lattes (Danilo Farias Soares da Silva).pdf" target="_blank">Saiba mais...</a></li>
-        </ul>
+        <h3>Endereço/Contato:</h3>
+        <address>
+            Desenvolvido: <a href="mailto:danilo.silva@pe.senac.br"> Danilo Farias</a>.<br>
+            Visite: <a href=“https://github.com/dansoaresfarias”> Portifólio GitHub</a><br>
+            Rua Dom Bosco, 1000<br> Recife, PE – Brasil
+        </address>
         <hr>
-    </div>   
+    </div>
+    <footer>
+        <span>Copyright © 2024 Danilo Farias. Todos os Direitos Reservados.</span>
+    </footer>
 </body>
+
 </html>
