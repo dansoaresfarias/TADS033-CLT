@@ -59,6 +59,14 @@ hr {
     margin-left: 10%;
 }
 
+p {
+    text-align: justify;
+}
+
+#sobreP {
+    text-align: center;
+}
+
 #menu {
     text-align: center;
 }
