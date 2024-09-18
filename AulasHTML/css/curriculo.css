@@ -1,5 +1,7 @@
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-image: linear-gradient(to top, #031fa3, #3147b8, #546cca, #7990d9, #a1b5e6, #b0c8ec, #c6dbf0, #e0ecf5, #e5f0f6, #ebf4f7, #f2f8f9, #f9fbfb); */
+    background-color: #F5F5F5;
 }
 
 table {
@@ -17,12 +19,15 @@ td {
 
 th {
     border: 1px solid #dddddd;
+    background-color: #424242;
+    color: #F5F5F5;
     text-align: center;
     padding: 8px;
 }
 
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #229799;
+    color: #F5F5F5;
 }
 
 address {
@@ -60,7 +65,9 @@ p {
 }
 
 #sobreP {
-    text-align: center;
+    text-align: justify;
+    color: white;
+    background-color: rgb(255, 50, 40);
 }
 
 #menu {
