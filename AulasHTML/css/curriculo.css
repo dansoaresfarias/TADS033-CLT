@@ -3,7 +3,7 @@ html {
 }
 
 table {
-    font-family: arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
     width: 80%;
     margin-left: 10%;
@@ -44,10 +44,6 @@ ul {
     list-style-type: square;
 }
 
-img {
-    border-radius: 50%;
-}
-
 iframe {
     width: 80%;
     height: 300px;
@@ -78,4 +74,12 @@ p {
 #endereco {
     width: 80%;
     margin-left: 10%;
+}
+
+#center {
+    text-align: center;
+}
+
+#foto {
+    border-radius: 50%;
 }
