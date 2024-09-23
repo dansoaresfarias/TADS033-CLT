@@ -35,10 +35,6 @@ address {
     margin-left: 3%;
 }
 
-hr {
-    border: solid #dddddd 1px;
-}
-
 footer {
     text-align: center;
     font-size: small;
@@ -52,22 +48,55 @@ ul {
 iframe {
     width: 80%;
     height: 300px;
-    margin-left: 10%;    
+    margin-left: 10%;
 }
 
 hr {
     width: 80%;
     margin-left: 10%;
+    border: solid #dddddd 1px;
 }
 
 p {
     text-align: justify;
 }
 
+a:link {
+    color: #FF0000;
+}
+
+a:visited {
+    color: #00FF00;
+}
+
+a:hover {
+    color: #FF00FF;
+    font-size: x-large;
+}
+
+a:active {
+    color: #0000FF;
+}
+
+#sobre{
+    width: 90%;
+    padding-left: 5%;
+}
+
 #sobreP {
     text-align: justify;
     color: white;
     background-color: rgb(255, 50, 40);
+}
+
+#formacao{
+    width: 90%;
+    padding-left: 5%;
+}
+
+#experiencia{
+    width: 90%;
+    padding-left: 5%;
 }
 
 #menu {
@@ -80,7 +109,7 @@ p {
 
 #endereco {
     width: 80%;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 #center {
