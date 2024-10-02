@@ -1,0 +1,69 @@
+footer {
+    text-align: center;
+}
+
+#apresentacao {
+    background-color: #E9EFEC;
+}
+
+#foto {
+    width: 100%;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+#sobre {
+    padding: 20px;
+}
+
+#sobreP {
+    text-align: justify;
+}
+
+#formacao {
+    background-color: #E9EFEC;
+    padding: 20px 0px 20px 0px;
+}
+
+#experiencia {
+    padding: 20px 0px 20px 0px;
+}
+
+#endereco {
+    background-color: #E9EFEC;
+    padding: 20px 0px 20px 0px;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.topSobre {
+    background-color: #16423C;
+    width: 8%;
+}
+
+.topFormacao {
+    background-color: #16423C;
+    width: 25%;
+}
+
+.topExperiencia {
+    background-color: #16423C;
+    width: 28%;
+}
+
+.topEndereco {
+    background-color: #16423C;
+    width: 22%;
+}
+
+.menuDanilo{
+    background-color: #16423C;
+}
+
+a.menuDanilo {
+    color: #E9EFEC;
+}

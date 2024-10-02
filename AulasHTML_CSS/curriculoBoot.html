@@ -15,6 +15,15 @@
 
 <body>
     <!-- Exercício de criação do currículo  -->
+    <nav class="navbar fixed-bottom menuDanilo">
+        <div class="container-fluid d-flex justify-content-center">
+            <a href="#apresentacao" class="mx-2 menuDanilo">Danilo Farias</a>
+            <a href="#sobre" class="mx-2 menuDanilo">Sobre</a>
+            <a href="#formacao" class="mx-2 menuDanilo">Formação Acadêmica</a>
+            <a href="#experiencia" class="mx-2 menuDanilo">Experiência Profissional</a>
+            <a href="#endereco" class="mx-2 menuDanilo">Endereço/Contato</a>
+        </div>
+    </nav>
     <div id="apresentacao">
         <div class="container-sm">
             <div class="row align-items-center">
@@ -29,10 +38,11 @@
         </div>
     </div>
     <div id="sobre" class="container-sm ">
-        <h3>Sobre:</h3>        
-        <div class="card topBcg rounded-0 my-2"></div>
+        <h3>Sobre:</h3>
+        <div class="card topSobre rounded-0 my-2"></div>
         <div class="container-sm">
-            <p>Graduado em <b>Tecnologia em Análise e Desenvolvimento de Sistemas</b> pelo Instituto Federal de
+            <p id="sobreP">Graduado em <b>Tecnologia em Análise e Desenvolvimento de Sistemas</b> pelo Instituto Federal
+                de
                 Educação,
                 Ciência e Tecnologia de Pernambuco (IFPE), <b>Mestre em Ciência da Computação</b> pelo Centro de
                 Informática
@@ -56,61 +66,69 @@
                         height="45px" alt="Icon Portifólio" title="Portifólio"></a>
             </p>
         </div>
-
     </div>
     <div id="formacao">
-        <h3>Formação Acadêmica:</h3>
-        <ul>
-            <li>Tecnólogo em Análise e Desenvolvimento de Sistemas (<a
-                    href="https://portal.ifpe.edu.br/recife/cursos/superiores/tecnologos/analise-e-desenvolvimento-de-sistemas/"
-                    target="_blank">IFPE</a>)</li>
-            <li>Especialista em Informática em Saúde (<a href="https://informaticaemsaude.com.br/is.uab/index.html"
-                    target="_blank">UNIFESP</a>)</li>
-            <li>Mestre em Ciência da Computação (<a
-                    href="https://portal.cin.ufpe.br/pos-graduacao/stricto-sensu/programa-academico/mestrado-academico/"
-                    target="_blank">UFPE</a>)</li>
-            <li><a href="docs/Currículo do Sistema de Currículos Lattes (Danilo Farias Soares da Silva).pdf"
-                    target="_blank">Saiba mais...</a></li>
-        </ul>
-        <hr>
+        <div class="container-sm">
+            <h3>Formação Acadêmica:</h3>
+            <div class="card topFormacao rounded-0 my-2"></div>
+            <ul>
+                <li>Tecnólogo em Análise e Desenvolvimento de Sistemas (<a
+                        href="https://portal.ifpe.edu.br/recife/cursos/superiores/tecnologos/analise-e-desenvolvimento-de-sistemas/"
+                        target="_blank">IFPE</a>)</li>
+                <li>Especialista em Informática em Saúde (<a href="https://informaticaemsaude.com.br/is.uab/index.html"
+                        target="_blank">UNIFESP</a>)</li>
+                <li>Mestre em Ciência da Computação (<a
+                        href="https://portal.cin.ufpe.br/pos-graduacao/stricto-sensu/programa-academico/mestrado-academico/"
+                        target="_blank">UFPE</a>)</li>
+                <li><a href="docs/Currículo do Sistema de Currículos Lattes (Danilo Farias Soares da Silva).pdf"
+                        target="_blank">Saiba mais...</a></li>
+            </ul>
+        </div>
     </div>
     <div id="experiencia">
-        <h3>Experiência Profissional:</h3>
-        <table class="table">
-            <tr>
-                <th>Período</th>
-                <th>Instituição</th>
-                <th>Experiência</th>
-            </tr>
-            <tr>
-                <td>2008-2010</td>
-                <td>5IT</td>
-                <td>Desenvolvedor back-end JAVA.</td>
-            </tr>
-            <tr>
-                <td>2010-2024</td>
-                <td>UFPE</td>
-                <td>Analista de Sistemas no Núcleo de Telessaúde da UFPE no HC.</td>
-            </tr>
-            <tr>
-                <td>2024-Atualmente</td>
-                <td>UFPE</td>
-                <td>Analista de Sistemas na SPREAD.</td>
-            </tr>
-        </table>
-        <hr>
+        <div class="container-sm">
+            <h3>Experiência Profissional:</h3>
+            <div class="card topExperiencia rounded-0 my-2"></div>
+            <table class="table">
+                <tr>
+                    <th>Período</th>
+                    <th>Instituição</th>
+                    <th>Experiência</th>
+                </tr>
+                <tr>
+                    <td>2008-2010</td>
+                    <td>5IT</td>
+                    <td>Desenvolvedor back-end JAVA.</td>
+                </tr>
+                <tr>
+                    <td>2010-2024</td>
+                    <td>UFPE</td>
+                    <td>Analista de Sistemas no Núcleo de Telessaúde da UFPE no HC.</td>
+                </tr>
+                <tr>
+                    <td>2024-Atualmente</td>
+                    <td>UFPE</td>
+                    <td>Analista de Sistemas na SPREAD.</td>
+                </tr>
+            </table>
+        </div>
     </div>
-    <div>
-        <h3>Endereço/Contato:</h3>
-        <address>
-            Desenvolvido: <a href="mailto:danilo.silva@pe.senac.br"> Danilo Farias</a>.<br>
-            Visite: <a href=“https://github.com/dansoaresfarias”> Portifólio GitHub</a><br>
-            Rua Dom Bosco, 1000<br> Recife, PE – Brasil
-        </address>
-        <hr>
+    <div id="endereco">
+        <div class="container-sm">
+            <h3>Endereço/Contato:</h3>
+            <div class="card topEndereco rounded-0 my-2"></div>
+            <address>
+                Desenvolvido: <a href="mailto:danilo.silva@pe.senac.br"> Danilo Farias</a>.<br>
+                Visite: <a href=“https://github.com/dansoaresfarias”> Portifólio GitHub</a><br>
+                Rua Dom Bosco, 1000<br> Recife, PE – Brasil
+            </address>
+        </div>
     </div>
     <footer>
         <span>Copyright © 2024 Danilo Farias. Todos os Direitos Reservados.</span>
+        <br>
+        <br>
+        <br>
     </footer>
 </body>
 
