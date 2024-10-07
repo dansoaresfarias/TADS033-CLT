@@ -1,0 +1,94 @@
+footer {
+    text-align: center;
+    background-color: #16423C;
+    color: #E9EFEC;
+}
+
+#apresentacao {
+    background-color: #E9EFEC;
+    padding-top: 40px;
+    scroll-margin-top: 40px;
+}
+
+#foto {
+    width: 100%;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+#sobre {
+    padding: 20px;
+    scroll-margin-top: 40px;
+}
+
+#sobreP {
+    text-align: justify;
+}
+
+#formacao {
+    background-color: #E9EFEC;
+    padding: 20px 0px 20px 0px;
+    scroll-margin-top: 40px;
+}
+
+#experiencia {
+    padding: 20px 0px 20px 0px;
+    scroll-margin-top: 40px;
+}
+
+#formulario {
+    background-color: #E9EFEC;
+    padding: 20px 0px 20px 0px;
+    scroll-margin-top: 40px;
+}
+
+#endereco {
+    padding: 20px 0px 20px 0px;
+    scroll-margin-top: 40px;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.topSobre {
+    background-color: #16423C;
+    width: 8%;
+}
+
+.topFormacao {
+    background-color: #16423C;
+    width: 25%;
+}
+
+.topExperiencia {
+    background-color: #16423C;
+    width: 28%;
+}
+
+.topFormulario {
+    background-color: #16423C;
+    width: 21%;
+}
+
+.topEndereco {
+    background-color: #16423C;
+    width: 12%;
+}
+
+.menuDanilo{
+    background-color: #16423C;
+}
+
+a.menuDanilo {
+    color: #E9EFEC;
+}
+
+.jordy{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: cadetblue;
+    font-weight: 700;
+}
