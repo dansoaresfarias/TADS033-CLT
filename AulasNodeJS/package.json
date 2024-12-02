@@ -1,0 +1,23 @@
+{
+  "name": "locadoraZezinho",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Filme",
+    "Lazer",
+    "Gestão"
+  ],
+  "author": "Danilo Farias",
+  "license": "ISC",
+  "description": "Projeto para ensinar NodeJS e TypeScript.",
+  "dependencies": {
+    "locadoraZezinho": "file:",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}
