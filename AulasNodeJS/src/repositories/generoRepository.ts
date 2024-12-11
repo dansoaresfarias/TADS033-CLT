@@ -56,7 +56,7 @@ class GeneroRepository {
                 idGenero: generoId,
             });
             if (generoEncontrado) {
-                this.generoRepository.remove(generoEncontrado);
+                this.generoRepository.delete(generoEncontrado);
                 return 1;
             }
             return 0;
